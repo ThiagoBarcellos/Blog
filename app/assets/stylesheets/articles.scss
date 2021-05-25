@@ -1,3 +1,26 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.card {
+    background-color:white;
+    box-shadow: 0 2px 6px 4px #464855;
+    border: 1px solid #464855;
+    border-radius: 4px;
+    color: #464855;
+    max-width: 400px;
+  
+    &__title {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      padding: 17px 15px;
+      border-bottom: 1px solid #464855;
+    }
+  
+    &__body {
+      font-size: 12px;
+      line-height: 20px;
+      padding: 18px 26px;
+    }
+  }

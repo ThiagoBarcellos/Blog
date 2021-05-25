@@ -1,8 +1,8 @@
-<fieldset>
-  <h1><%= @article.title %></h1>
+<div class="card">
+  <h1 class="card__title"><%= @article.title %></h1>
 
-  <p><%= @article.body %></p>
-</fieldset>
+  <p class="card__body"><%= @article.body %></p>
+</div>
 
 <ul>
   <li><%= link_to "Edit", edit_article_path(@article) %></li>
